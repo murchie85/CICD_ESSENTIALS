@@ -1,7 +1,7 @@
 # JENKINS HANDS ON 
 
 LAB2-JENKINS |
-[Home](../README.md) |
+[Home](../) |
 [LAB1-GIT](LAB1-GIT/README.md) 
 
 
