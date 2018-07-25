@@ -10,9 +10,9 @@ Firstly you should know this page that you are reading is a github standard appr
 
 ## Expand me to learn how to format your readme pages
 <details>
-# # BIG TITLE
-## ## H1 HEADING
-### ### H2 HEADING (and so on)
+# # BIG TITLE  
+## ## H1 HEADING  
+### ### H2 HEADING (and so on)  
 
 
 To do bullet points, you just use the * then a space 
