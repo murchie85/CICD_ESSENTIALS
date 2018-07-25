@@ -2,6 +2,7 @@
 
 LAB1-GIT |
 [LAB2-JENKINS ](../LAB2-JENKINS/README.md) |
+[LAB3-AWS](../LAB3-AWS/README.md)] |
 [Home](../README.md) 
 
 
