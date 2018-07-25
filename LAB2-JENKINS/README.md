@@ -1,7 +1,7 @@
 # JENKINS HANDS ON 
 
 LAB2-JENKINS |
-[Home](CICD_ESSENTIALS) |
+[Home](../README.md) |
 [LAB1-GIT](../LAB1-GIT/README.md) 
 
 
