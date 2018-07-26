@@ -5,8 +5,25 @@ LAB1-GIT |
 [LAB3-AWS](../LAB3-AWS/README.md) |
 [Home](../README.md) 
 
+Github is a source code management tool - which is the foundation of all development practices, it is basically like dropbox for your code, bare minimum people upload their code here as a backup, you can also collaborate with others, share code, contribute to their code etc. 
 
-Firstly you should know this page that you are reading is a github standard approach. Everygithub repo has a readme.md file, and that file displays simple text in a formatted way. 
+The general best practices approach is 
+
+1. On your computer have a folder where you will do your coding projects (my folder is just called projects).
+2. In the projects folder, have a folder for sub project like AdamsAWSCourse.
+3. __DO NOT__ group your folders by languages i.e. Java folder, Python folder.
+4. Now each folder will store a gitreference (we can worry about that later) - but it means you don't have to complete any of them to feel a sense of achievement.
+
+
+
+Finally before we start, you should know this page that you are reading is a github standard approach. Every github repo has a readme.md file (.md is a format like .txt or .doc but when uploaded into github it auto formats and you can do things like make text __bold__ _italic_ etc more on this later).
+
+
+# LESSON 1 - CREATE A GIT REPO
+
+Log into Github and click the plus arrow in the top right to create a new repository, 
+![NEW](../images/newGIT.png "Create a new repo")
+
 
 # BASIC FORMAT (EXPAND)
 <details>
@@ -29,17 +46,10 @@ To do bullet points, you just use the * then a space
 You can google markdown format or just check the link below for a one pager cheatsheet.  Don't worry about this too much, all you need to know is how to do a title, and bullet points - that will mean all your code folders will have a nice README that will display anytime someone accesses your github repo.
 </details>
 
-# LESSON 1 - CREATE A GIT REPO
-
-
-![NEW](../images/newGIT.png "Create a new repo")
-
-
-
 
 # GIT LIKE A BOSS
 
-Github is a sourcecode management tool - which is the foundation of all development practices, it is basically like dropbox for your code, you basically updload your code here as a backup, you can collaborate with others, share code, contribute to their code etc. 
+
 
 What you need to do is: 
 
