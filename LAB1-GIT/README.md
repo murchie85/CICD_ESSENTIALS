@@ -32,8 +32,8 @@ Now give your repository a name, if the initialize repo with README.md is ticked
 Now follow the commands below, they are similiar to what you get prompted with but some slight changes - I will explain each step. 
 
 ```
-echo "# blah" >> README.md
-git init
+cd myprojectfolderdirectory                                                # THIS HAS TO BE THE BASE DIRECTORY OF YOUR SUB PROJECT FOLDER i.e. AWStutorial
+git init                                                                   # This will add hidden files to your folder (they are git tracking files)
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/murchie85/blah.git
