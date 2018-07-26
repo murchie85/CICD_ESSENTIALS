@@ -32,9 +32,9 @@ We can now run powershell from Jenkins, that means we can schedule the jobs so w
 
 Lets get stuck in and start our Jenkins development project
 
-1. Create a new folder called JENKINS-SANDPIT
-2. Create a file called BTCREPORT.txt
-3. Paste the code below into the file 
+* Create a new folder called __JENKINS-SANDPIT__
+* Create a file called __BTCREPORT.txt__
+* Paste the code below into the file 
 ```
 $url = "https://api.coinmarketcap.com/v1/ticker/?convert=GBP"
 
@@ -44,6 +44,14 @@ $url = "https://api.coinmarketcap.com/v1/ticker/?convert=GBP"
 Invoke-WebRequest -Uri $url -UseDefaultCredentials -UseBasicParsing | Select-Object -ExpandProperty content > C:\Users\adam\Documents\jenkins\output.json
 ```
 
-4. Now add a git repo like we did the last time - first go to github login, and click create project and follow the steps 
-5. Upload this git repo (should be in the steps when you create a new GIT project)
+* Now add a git repo like we did the last time - first go to github login, and click create project and follow the steps 
+* Upload this git repo (should be in the steps when you create a new GIT project)
+
+
+## Building our First Jenkins Job
+1. Log into Jenkins 
+2. Create new Item
+3. Give it an item name and select __FreeStyle Project__
+4. There is __LOTS__ of stuff you can configure here, but don't worry you don't need to do anything if you don't want to. Think of them all as optional functionality, they can include AWS triggers, GITHUB polling and so on.
+
 
