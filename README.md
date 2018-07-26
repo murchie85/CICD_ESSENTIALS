@@ -5,3 +5,8 @@ Home |
 [LAB2-JENKINS](LAB2-JENKINS/README.md) |
 [LAB3-AWS](LAB3-AWS/README.md) |
 [LAB4-Website](LAB4-Website/README.md)
+
+
+# OVERVIEW
+
+This tutorial breif will talk you through getting up to speed using Github, Jenkins, AWS and hosting your own website. 
