@@ -9,10 +9,10 @@ Github is a source code management tool - which is the foundation of all develop
 
 The general best practices approach is: 
 
-1. Download and Install git on your computer
+1. __Download__ and Install git on your computer
 2. Make sure it works by opening command line or terminal and typing GIT
 3. On your computer have a folder where you will do your coding projects (my folder is just called projects).
-4. In the projects folder, have a folder for sub project like AdamsAWSCourse.
+4. In the projects folder, have a folder for __subproject__ like myAWSCourse.
 5. __DO NOT__ group your folders by languages i.e. Java folder, Python folder.
 6. Now each folder will store a gitreference (we can worry about that later) - but it means you don't have to complete any of them to feel a sense of achievement.
 
@@ -28,7 +28,7 @@ Lets get right into it:
 
 1. First create a subfolder on your computer for this lesson, you can call it __GIT-SANDPIT__
 2. In this folder make add some __random files__
-3. Also make a __README.md__ file, open it up and write # GIT Sandpit , then save and close. 
+3. Also make a __README.md__ file, open it up and write `# GIT Sandpit` , then save and close. 
 
 Log into Github and click the plus arrow in the top right to create a new repository: 
 
