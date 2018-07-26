@@ -11,9 +11,18 @@ Home |
 
 This tutorial breif will talk you through getting up to speed using Github, Jenkins, AWS and hosting your own website. 
 
+# GITHUB
 
 ![git](images/github.png "Github")
 
+Github is a source code management tool - which is the foundation of all development practices, it is basically like dropbox for your code, bare minimum people upload their code here as a backup, you can also collaborate with others, share code, contribute to their code etc. 
+
+
+# JENKINS
+
 ![jenkins](images/jenkins.jpeg "JENKINS")
 
+Jenkins is a really powerful CICD pipeline tool, CICD stands for *Continuous Integration* & *Continuous Delivery*
+
+# AWS
 ![AWS](images/AWS.png "AWS")
