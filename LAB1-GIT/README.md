@@ -7,7 +7,7 @@ LAB1-GIT |
 
 Github is a source code management tool - which is the foundation of all development practices, it is basically like dropbox for your code, bare minimum people upload their code here as a backup, you can also collaborate with others, share code, contribute to their code etc. 
 
-The general best practices approach is 
+The general best practices approach is: 
 
 1. On your computer have a folder where you will do your coding projects (my folder is just called projects).
 2. In the projects folder, have a folder for sub project like AdamsAWSCourse.
@@ -21,8 +21,25 @@ Finally before we start, you should know this page that you are reading is a git
 
 # LESSON 1 - CREATE A GIT REPO
 
-Log into Github and click the plus arrow in the top right to create a new repository, 
+Log into Github and click the plus arrow in the top right to create a new repository: 
+
 ![NEW](../images/newGIT.png "Create a new repo")
+
+Now give your repository a name, if the initialize repo with README.md is ticked, unselect it - we want ot get in the habbit of doing this ourselves. 
+
+![NEW](../images/GITNAMING.png "Create a new repo")
+
+Now follow the commands below, they are similiar to what you get prompted with but some slight changes - I will explain each step. 
+
+```
+echo "# blah" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/murchie85/blah.git
+git push -u origin master
+
+```
 
 
 # BASIC FORMAT (EXPAND)
