@@ -31,8 +31,8 @@ You can google markdown format or just check the link below for a one pager chea
 
 # LESSON 1 - CREATE A GIT REPO
 
-Inline-style: 
-![NEW](images/newGIT.png "Create a new repo")
+
+![NEW](../images/newGIT.png "Create a new repo")
 
 
 
