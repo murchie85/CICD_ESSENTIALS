@@ -21,25 +21,34 @@ Finally before we start, you should know this page that you are reading is a git
 
 # LESSON 1 - CREATE A GIT REPO
 
+Lets get right into it: 
+
+1. First create a subfolder for this lesson, you can call it GIT-SANDPIT
+2. In this folder make add some random files
+3. Also make a README.md file, open it up and write # GIT Sandpit , then save and close. 
+
 Log into Github and click the plus arrow in the top right to create a new repository: 
 
 ![NEW](../images/newGIT.png "Create a new repo")
 
-Now give your repository a name, if the initialize repo with README.md is ticked, unselect it - we want ot get in the habbit of doing this ourselves. 
+Now give your repository a name, if the initialize repo with README.md is ticked, unselect it - we want ot get in the habbit of doing this ourselves and we have made one already in our folder. 
 
-![NEW](../images/GITNAMING.png "Create a new repo")
+![NEW](../images/GITNAME.png "Name a new repo")
 
 Now follow the commands below, they are similiar to what you get prompted with but some slight changes - I will explain each step. 
 
 ```
-cd myprojectfolderdirectory                                                # THIS HAS TO BE THE BASE DIRECTORY OF YOUR SUB PROJECT FOLDER i.e. AWStutorial
-git init                                                                   # This will add hidden files to your folder (they are git tracking files)
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/murchie85/blah.git
-git push -u origin master
+cd myprojectfolderdirectory                                   # THIS HAS TO BE THE BASE DIRECTORY OF YOUR SUB PROJECT FOLDER i.e. AWStutorial
+git init                                                      # This will add hidden files to your folder (they are git tracking files)
+git add .                                                     # The . at the end means add everything
+git commit -m "Any message you like"                          # -m means message, when you do this commit its ready to get uploaded
+git remote add origin yourgithubrepolink/                     # You will only do this once, just copy this line from the git page and run it
+git push -u origin master                                     # This will now upload your files to git
 
 ```
+
+
+If this all works correctly, refresh the gitpage with the list of commands and you will see your stuff there.
 
 
 # BASIC FORMAT (EXPAND)
