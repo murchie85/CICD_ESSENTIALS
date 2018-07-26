@@ -42,7 +42,7 @@ What you need to do is:
 Once that is sorted the steps you will repeat over and over as you develop (and will make you look like a pro to non developers is this)
 
 1. Write code on your computer
-2. do a ** git add . ** on command line, this adds your code ready to upload
+2. do a __ git add . __ on command line, this __adds__ your code ready to upload
 3. do a ** git commit -m 'whatever message' ** this preps your code ready for upload
 4. do a ** git push origin master ** this uploads your code to github. 
 
