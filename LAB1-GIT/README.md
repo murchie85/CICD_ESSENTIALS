@@ -29,6 +29,14 @@ To do bullet points, you just use the * then a space
 You can google markdown format or just check the link below for a one pager cheatsheet.  Don't worry about this too much, all you need to know is how to do a title, and bullet points - that will mean all your code folders will have a nice README that will display anytime someone accesses your github repo.
 </details>
 
+# LESSON 1 - CREATE A GIT REPO
+
+Inline-style: 
+![NEW](images/newGIT.png "Create a new repo")
+
+
+
+
 # GIT LIKE A BOSS
 
 Github is a sourcecode management tool - which is the foundation of all development practices, it is basically like dropbox for your code, you basically updload your code here as a backup, you can collaborate with others, share code, contribute to their code etc. 
@@ -42,7 +50,7 @@ What you need to do is:
 Once that is sorted the steps you will repeat over and over as you develop (and will make you look like a pro to non developers is this)
 
 1. Write code on your computer
-2. do a __ git add . __ on command line, this __adds__ your code ready to upload
+2. do a __ git add . __ on command line, this adds your code ready to upload
 3. do a ** git commit -m 'whatever message' ** this preps your code ready for upload
 4. do a ** git push origin master ** this uploads your code to github. 
 
