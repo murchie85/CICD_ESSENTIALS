@@ -20,7 +20,7 @@ Github is a source code management tool - which is the foundation of all develop
 
 # JENKINS
 
-![jenkins](images/jenkins.jpeg "JENKINS" =100x100)
+![jenkins](images/jenkins.jpeg =100x100 "JENKINS" )
 
 Jenkins is a really powerful CICD pipeline tool, CICD stands for *Continuous Integration* & *Continuous Delivery* Basically Jenkins will tie into almost any development tool, from gitHub to AWS and Docker. Jenkins allows you to tie in and orchastrate all yoursoftware development tools. For example, Jenkins could control your flow that first you pull with github, then shell scripts run, then code is uploaded to AWS etc. Essentially giving you remote control and scheduling of development tools  
 
