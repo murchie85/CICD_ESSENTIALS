@@ -10,3 +10,10 @@ Home |
 # OVERVIEW
 
 This tutorial breif will talk you through getting up to speed using Github, Jenkins, AWS and hosting your own website. 
+
+
+![git](images/github.png "Github")
+
+![jenkins](images/jenkins.jpeg "JENKINS")
+
+![AWS](images/AWS.png "AWS")
