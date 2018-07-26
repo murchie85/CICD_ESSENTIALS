@@ -38,7 +38,7 @@ Now give your repository a name (like below), if the initialize repo with README
 
 ![NEW](../images/GITNAME.png "Name a new repo")
 
-You will see a list of commands to run, but follow the commands below, they are similiar to what you get prompted with but some slight changes - I will explain each step. 
+You will see a list of commands to run, but follow the commands below, they are similiar to what you get prompted with but some slight changes - I will explain each step after the # sign, these are comments so ignore them and don't paste them in. 
 
 ```
 cd myprojectfolderdirectory                  # THIS HAS TO BE THE BASE DIRECTORY OF YOUR SUB PROJECT FOLDER i.e. AWStutorial
@@ -51,7 +51,7 @@ git push -u origin master                    # This will now upload your files t
 ```
 
 
-If this all works correctly, refresh the gitpage with the list of commands and you will see your stuff there.
+If this all works correctly, refresh the gitpage that you were on showing the list of commands and you will see your stuff there.
 
 
 # GIT LIKE A BOSS
@@ -76,6 +76,7 @@ git push origin master
 ```
 
 That should be uploaded now, open your github repo in your browser to check it was uploaded succesfully. 
+
 
 ### THIRD UPLOAD
 
@@ -102,7 +103,15 @@ git commit -m 'created new file'
 git push origin master 
 ```
 
-# BASIC FORMAT (EXPAND)
+
+
+# FINISHED! 
+
+
+Ok you are done! now you know everytime you make a change you just do three commands __add__ , __commit__ , __push__ . Remember though, if you upload a new repo, you have to do those initialising steps it tells you.
+
+
+# HOW TO FORMAT YOUR README.md FILES TO LOOK NICE (EXPAND FOR INFO)
 <details>
 
 
