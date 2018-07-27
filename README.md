@@ -9,7 +9,7 @@ Home |
 
 # OVERVIEW
 
-This tutorial breif will talk you through getting up to speed using Github, Jenkins, AWS and hosting your own website. Click on LAB001 to begin! 
+This tutorial breif will talk you through getting up to speed using Github, Jenkins, AWS and hosting your own website. Click on [LAB1-GIT](LAB1-GIT/README.md) to begin! 
 
 # GITHUB
 
