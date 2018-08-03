@@ -3,6 +3,8 @@
 LAB1-GIT |
 [LAB2-JENKINS ](../LAB2-JENKINS/README.md) |
 [LAB3-AWS](../LAB3-AWS/README.md) |
+[LAB4-Website](../LAB4-Website/README.md) |
+[LAB5-Chatbot](../LAB5-Chatbot/README.md) |
 [Home](../README.md) 
 
 Github is a source code management tool - which is the foundation of all development practices, it is basically like dropbox for your code, bare minimum people upload their code here as a backup, you can also collaborate with others, share code, contribute to their code etc. 
