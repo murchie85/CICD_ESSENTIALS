@@ -155,3 +155,127 @@ send_message(toSend)
 
 ```
 This basically means if we type it in exactly, the bot will respond how we want it too.
+
+
+## Abstracting a Response 
+
+This time we will try to make a generic bot that is still useless but fakes a bit of intelligence, basically we will check for a ? mark and if it is there, we will answer the question vaguely, if not we will add an affirmative response. 
+
+```
+
+import random
+
+bot_template = "BOT : {0}"
+user_template = "USER : {0}"
+
+responses = {'question': ["I don't know :(", 'you tell me!'],
+ 'statement': ['tell me more!',
+  'why do you think that?',
+  'how long have you felt this way?',
+  'I find that extremely interesting',
+  'can you back that up?',
+  'oh wow!',
+  ':)']}
+
+
+
+# Define a function that sends a message to the bot: send_message
+def send_message(message):
+    # Print user_template including the user_message
+    print(user_template.format(message))
+    # Get the bot's response to the message
+    response = respond(message)
+    # Print the bot template including the bot's response.
+    print(bot_template.format(response))
+
+def respond(message):
+    # Check for a question mark
+    if message.endswith("?"):
+        # Return a random question
+        return random.choice(responses["question"])
+    # Return a random statement
+    return random.choice(responses["statement"])
+
+
+
+
+
+# Send messages ending in a question mark
+send_message("what's today's weather?")
+
+
+# Send messages which don't end with a question mark
+send_message("I love building chatbots")
+
+
+
+```
+
+
+# REGEX Expressions 
+
+Getting used to coding REGEX expressions are extremely useful, because they allow you to work with fields that aren't exact, account for typos and spot patterns. 
+
+```
+
+import re
+import random
+
+
+user_template = 'USER : {0}'
+bot_template = 'BOT : {0}'
+
+keywords = {'goodbye': ['bye', 'farewell'],
+ 'greet': ['hello', 'hi', 'hey'],
+ 'thankyou': ['thank', 'thx']}
+responses = {'default': 'default message',
+ 'goodbye': 'goodbye for now',
+ 'greet': 'Hello you! :)',
+ 'thankyou': 'you are very welcome'}
+
+
+def send_message(message):
+    print(user_template.format(message))
+    response = respond(message)
+    print(bot_template.format(response))
+
+
+# Define find_name()
+def find_name(message):
+    name = None
+    # Create a pattern for checking if the keywords occur
+    name_keyword = re.compile('name|call')
+    # Create a pattern for finding capitalized words
+    name_pattern = re.compile('[A-Z]{1}[a-z]*')
+    if name_keyword.search(message):
+        # Get the matching words in the string
+        name_words = name_pattern.findall(message)
+        if len(name_words) > 0:
+            # Return the name if the keywords are present
+            name = ' '.join(name_words)
+    return name
+
+# Define respond()
+def respond(message):
+    # Find the name
+    name = find_name(message)
+    if name is None:
+        return "Hi there!"
+    else:
+        return "Hello, {0}!".format(name)
+
+# Send messages
+send_message("my name is David Copperfield")
+send_message("call me Ishmael")
+send_message("People call me Cassandra")
+
+```
+
+
+
+
+# BUILD, CUSOMISE AND DEPLOY A SMARTBOT ON THE CLOUD AND FACEBOOK
+
+In this tutorial we will work through the example in googles engine, API.AI , it is really powerful and does all the hard stuff for us. 
+
+[API.AI](https://dialogflow.com/)
