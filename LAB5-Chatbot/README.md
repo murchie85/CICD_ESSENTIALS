@@ -276,6 +276,7 @@ send_message("People call me Cassandra")
 
 # BUILD, CUSOMISE AND DEPLOY A SMARTBOT ON THE CLOUD AND FACEBOOK
 
+![API.AI](https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2014/09/apiai-730x283.jpg)
 In this tutorial we will work through the example in googles engine, API.AI , it is really powerful and does all the hard stuff for us. 
 
-[API.AI](https://dialogflow.com/)
+We will follow all the tutorial steps in the following link, its pretty simple to use : [API.AI](https://dialogflow.com/)
