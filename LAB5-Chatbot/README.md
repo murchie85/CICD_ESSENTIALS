@@ -24,6 +24,50 @@ First things first, lets install python for windows, and learn how to work with 
 3. now from command line, gitbash or terminal, navigate to this folder where the file is stored and run the following   
 ``` python3 helloworld.py ```
 
+
+
+# Understanding functions 
+
+A function is something you call, that does a job and passes back a response that you can work with. A simple function that takes whatever you enter, and prints it out is this one:
+
+
+```
+def printmessage(message):
+    print(message)
+    return 
+
+
+printmessage("hi")
+
+```
+
+* def means deine a function, it has to have the format def functionname(somethingthatgetspassedin)
+* inside the function you can do whatever you want, for example we print the message that  gets passed in
+* we write return, but we don't return anything. So this function just prints the message that gets passed in.
+
+The part where we define the function does not get executed by the compiler, until it reaches the line *printmessage* only when it reaches that line, it calls the function and passes in 'hi' 
+
+
+## Returning a value
+```
+
+def anothernewfunction(value):
+    total = value + 10
+
+
+    return total
+
+
+
+anothernewfunction(22)
+
+```
+ 
+
+So in this case, when anothernewfunction is called, it passes in 22, then the total variable adds 10 to it. 
+
+
+
 # Python Chatbot 
 
 Below is the bare bones, but lots of new concepts here I will talk through as we work through them. 
