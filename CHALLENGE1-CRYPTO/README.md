@@ -30,14 +30,17 @@ The aim of this challenge is to make use of a cryptocurrency site, and utilize t
 4. Work with the following URL to download data on all coins and their GBP values [CoinMarketCapAPI](https://api.coinmarketcap.com/v1/ticker/?convert=GBP) 
 5. Build your first python job to pull that URL and convert to CSV. The easiest way to do this is to google for the answer, I have given you a start below - it prints to screen but now you need to figure out how to save this to csv:
 
-'''
+   
+```
 
 import urllib.request, json 
 with urllib.request.urlopen("MYURL") as url:
     data = json.loads(url.read().decode())
     print(data)
 
-'''
+```
+   
+
 
 6. Now comes the hard work - parse the data. Its best to start googling 'how to parse json with python'. High level you will want to work with the data like the step above, but pass it into an array or dictionary that you can iterate (loop through). And pull out information you want into variables to work with. What you want to aim for is an orgnised way you can work with the data, such as 'pull all GBP values for all coins' or 'only pull gbp values for certain coins'. This will involve you either looking into arrays or dictionaries. Personally I prefer working with arrays they are more simple.
 7. Now you know how to work your data - run the save to csv job - but now in a structured way that you can your python code can read that csv at a later date. 
