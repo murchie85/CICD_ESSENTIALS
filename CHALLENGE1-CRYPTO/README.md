@@ -28,13 +28,18 @@ The aim of this challenge is to make use of a cryptocurrency site, and utilize t
 2. **BONUS POINTS** if you can find documentation on their API, its important you have a look at this even if to get a feel for what it may/may not do.
 3. Understand what JSON is, do not spend too much time on this but most APIs deal with passing information in JSON format, so its worth getting used to that format. Google sample JSON to have a look.
 4. Work with the following URL to download data on all coins and their GBP values [CoinMarketCapAPI](https://api.coinmarketcap.com/v1/ticker/?convert=GBP) 
-5. Build your first python job to pull that URL and convert to CSV. The easiest way to do this is to google for the answer, but the form should look something like the following:
+5. Build your first python job to pull that URL and convert to CSV. The easiest way to do this is to google for the answer, I have given you a start below - it prints to screen but now you need to figure out how to save this to csv:
 
 '''
 
 import urllib.request, json 
-with urllib.request.urlopen("https://api.coinmarketcap.com/v1/ticker/?convert=GBP") as url:
+with urllib.request.urlopen("MYURL") as url:
     data = json.loads(url.read().decode())
     print(data)
 
 '''
+
+6. Now comes the hard work - parse the data. Its best to start googling 'how to parse json with python'. High level you will want to work with the data like the step above, but pass it into an array or dictionary that you can iterate (loop through). And pull out information you want into variables to work with. What you want to aim for is an orgnised way you can work with the data, such as 'pull all GBP values for all coins' or 'only pull gbp values for certain coins'. This will involve you either looking into arrays or dictionaries. Personally I prefer working with arrays they are more simple.
+7. Now you know how to work your data - run the save to csv job - but now in a structured way that you can your python code can read that csv at a later date. 
+8. Automate your python script so it saves to csv file every hour. Each hour it must overwrite your CSV file with the new data **BUT** it must include metrics for data changes. I.e. if BTC was 5000 but now is 5001 add a change column to say +1. The target is to track how your data changes each hour. 
+9. Automate a python script to append metrics every hour to a 'HISTORY.CSV' file. Unlike the last file, this one will grow. You will need to look into how to append data to a file with Python.
