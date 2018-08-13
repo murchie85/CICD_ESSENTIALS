@@ -45,4 +45,16 @@ with urllib.request.urlopen("MYURL") as url:
 6. Now comes the hard work - parse the data. Its best to start googling 'how to parse json with python'. High level you will want to work with the data like the step above, but pass it into an array or dictionary that you can iterate (loop through). And pull out information you want into variables to work with. What you want to aim for is an orgnised way you can work with the data, such as 'pull all GBP values for all coins' or 'only pull gbp values for certain coins'. This will involve you either looking into arrays or dictionaries. Personally I prefer working with arrays they are more simple.
 7. Now you know how to work your data - run the save to csv job - but now in a structured way that you can your python code can read that csv at a later date. 
 8. Automate your python script so it saves to csv file every hour. Each hour it must overwrite your CSV file with the new data **BUT** it must include metrics for data changes. I.e. if BTC was 5000 but now is 5001 add a change column to say +1. The target is to track how your data changes each hour. 
-9. Automate a python script to append metrics every hour to a 'HISTORY.CSV' file. Unlike the last file, this one will grow. You will need to look into how to append data to a file with Python.
+9. Automate a python script to append metrics every hour to a 'HISTORY.CSV' file. Unlike the last file, this one will grow. You will need to look into how to append data to a file with Python. **NOW** we can start automating trades or predicting prices.
+10. Add a column to your History file 'average rate', 'peak rate', 'min rate' etc. With these values appended each time, you can build another python program to monitor the current rate via the API call you did above, but also keep track of the average rate (by reading from the HISTORY.CSV file).
+11. Build a Python Email alert to send you an email if any of the coins reach within 10% of their minimum or maximum value.
+
+
+
+## ROUNDUP
+
+
+I definitely don't expect you to be able to follow all the steps above or produce programs that run exactly as prescribed above. More the steps above is to get you thinking in the right process for building the layers in order to learn key features for building an API and a sophisticate service.   
+
+If you were however to make it this far, then a huge congratulations and a stretch goal will be added in a couple of days. For now, you want to be thinking about how you can use your historical data to automate microtransactions so that your bot can trade on your behalf making you a small amount of money but also keeping you in a safetynet. 
+
